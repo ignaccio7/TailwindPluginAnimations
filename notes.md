@@ -50,3 +50,11 @@ tailwind.config.mjs
     plugins: [animations]
     }
 ```
+# Para publicar
+npm login <- logearse en npm
+npm whoami  <- para saber en que cuenta estamos
+npm publish --access=public <-- para publicarlo como publico
+npm info <namepackage><- Para saber la informacion de la publicacion
+npm info @ignaccio7/tailwind-animations
+
+npm publish --dry-run <-- para simular que si hubiera publicado y te muestra las cosas que esta publicando
